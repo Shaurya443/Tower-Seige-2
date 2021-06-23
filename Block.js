@@ -8,7 +8,7 @@ class Block{
       this.width = width;
       this.height = height;
       World.add(world, this.body);
-this.image = loadImage("block.png")
+      this.image = loadImage("block.png")
       this.visiblity = 255
     }
     display(){
